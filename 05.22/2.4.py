@@ -12,15 +12,13 @@ while True:
 print(f'\n{not bool(len(s_lisp))}')
 
 
-# Ввод1/Вывод1:
-#
+# tests:
+
 # Введите строку кода на языке LISP:
 # (for-loop [i 0 (< i 10) (inc i)] (println i))
 #
 # True
 
-# # Ввод2/Вывод2:
-#
 # Введите строку кода на языке LISP:
 # ((if [a >) 1] println var)
 #

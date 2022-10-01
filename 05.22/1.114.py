@@ -15,9 +15,13 @@ while n := input('Введите целое число: '):
         null_values.append(n)
 
 print()
-print(*[i.rjust(len_max) for i in negative_numbers + null_values + positive_numbers], sep='\n')
+print(
+    *[i.rjust(len_max) for i in negative_numbers + null_values + positive_numbers],
+    sep='\n'
+)
 
 
+# tests:
 # Введите целое число: 2
 # Введите целое число: -1
 # Введите целое число: 2
@@ -28,7 +32,7 @@ print(*[i.rjust(len_max) for i in negative_numbers + null_values + positive_numb
 
 # -1
 # -2
- # 0
- # 2
- # 2
- # 1
+# 0
+# 2
+# 2
+# 1

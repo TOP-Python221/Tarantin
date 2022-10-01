@@ -2,6 +2,7 @@ numbers = ['0']
 
 while n := input('Введите число: '):
     numbers.append(n)
+
 if numbers != ['0']:
     numbers.remove('0')
     avg = sum(map(float, numbers)) / len(numbers)
@@ -12,6 +13,7 @@ if numbers != ['0']:
           f'\nСписок чисел выше среднего: {[int(i) for i in numbers if float(i) > avg]}')
 
 
+# tests:
 # Введите число: 123
 # Введите число: 354
 # Введите число: 12
